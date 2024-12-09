@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("./data.txt")
+	file, err := os.Open("./day3/data.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
